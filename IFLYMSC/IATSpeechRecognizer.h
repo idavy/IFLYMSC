@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ISRDataHelper.h"
 
 typedef void (^EndOfSpeechResultBlock) (NSString *result);
 

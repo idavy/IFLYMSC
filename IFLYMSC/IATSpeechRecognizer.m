@@ -9,7 +9,6 @@
 #import "IATSpeechRecognizer.h"
 #import "iflyMSC/iflyMSC.h"
 #import "IATConfig.h"
-#import "ISRDataHelper.h"
 
 
 @interface IATSpeechRecognizer () <IFlySpeechRecognizerDelegate,IFlyRecognizerViewDelegate,UIActionSheetDelegate>
