@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/IFLYMSC/IFLYMSC/**' }
+    s.preserve_paths = 'iflyMSC.framework'
+    s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/IFLYMSC/Framework/' }
     s.frameworks = 'iflyMSC', 'SystemConfiguration', 'AVFoundation', 'CoreTelephony', 'AudioToolbox', 'AddressBook', 'QuartzCore', 'CoreGraphics'
     s.libraries = 'z'
  					
