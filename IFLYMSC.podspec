@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/idavy/IFLYMSC.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'IFLYMSC/**/*'
+  s.source_files = 'IFLYMSC/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ProjectBase' => ['ProjectBase/Assets/*.png']
